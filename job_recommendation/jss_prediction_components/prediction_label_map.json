@@ -1,0 +1,57 @@
+{
+    "layer_1": {
+        "0": "major",
+        "1": "minor"
+    },
+    "layer_2_major": {
+        "0": "Accounting/Finance",
+        "1": "Admin/Human Resources",
+        "2": "Computer/Information Technology",
+        "3": "Sales/Marketing",
+        "4": "Services"
+    },
+    "layer_2_minor": {
+        "0": "Arts/Media/Communications",
+        "1": "Education/Training",
+        "2": "Engineering",
+        "3": "Hotel/Restaurant",
+        "4": "Manufacturing",
+        "5": "Others"
+    },
+    "layer_3_acc": {
+        "0": "Audit & Taxation",
+        "1": "Banking/Financial",
+        "2": "Corporate Finance/Investment",
+        "3": "General/Cost Accounting"
+    },
+    "layer_3_admin": {
+        "0": "Clerical/Administrative Support",
+        "1": "Human Resources",
+        "2": "Secretarial/Executive Personal Assistant",
+        "3": "Top Management"
+    },
+    "layer_3_it": {
+        "0": "IT-Hardware",
+        "1": "IT-Network/Sys/DB Admin",
+        "2": "IT-Software"
+    },
+    "layer_3_sales": {
+        "0": "Digital Marketing",
+        "1": "Marketing/Business Dev",
+        "2": "Sales"
+    },
+    "layer_3_edu": {
+        "0": "Education",
+        "1": "Training & Dev."
+    },
+    "layer_3_media": {
+        "0": "Arts/Creative Design",
+        "1": "Communication and Public Relations",
+        "2": "Entertainment"
+    },
+    "layer_3_engg": {
+        "0": "Electrical and Electronics",
+        "1": "Mechanical",
+        "2": "Other Engineering"
+    }
+}

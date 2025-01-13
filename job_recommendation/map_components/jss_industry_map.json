@@ -1,0 +1,129 @@
+{
+    "IT-Software": [
+        "Computer/Information Technology (Software)",
+        "Computer / Information Technology (Software)"
+    ],
+    "Lawyer/Legal Asst": [
+        "Law/Legal"
+    ],
+    "Clerical/Administrative Support": [
+        "General & Wholesale Trading",
+        "Others"
+    ],
+    "General/Cost Accounting": [
+        "Accounting/Audit/Tax Services",
+        "Accounting / Audit / Tax Services"
+    ],
+    "Marketing/Business Dev": [
+        "Advertising/Marketing/Promotion/PR",
+        "Retail/Merchandise",
+        "Consulting (Business & Management)",
+        "Advertising / Marketing / Promotion / PR",
+        "Retail / Merchandise"
+    ],
+    "Audit & Taxation": [
+        "Accounting/Audit/Tax Services"
+    ],
+    "Arts/Creative Design": [
+        "Arts/Design/Fashion",
+        "Arts / Design / Fashion"
+    ],
+    "Electrical and Electronics": [
+        "Electrical & Electronics"
+    ],
+    "Digital Marketing": [
+        "Advertising/Marketing/Promotion/PR"
+    ],
+    "Mechanical": [
+        "Construction/Building/Engineering",
+        "Automobile/Automotive Ancillary/Vehicle",
+        "Construction / Building / Engineering",
+        "Automobile / Automotive Ancillary / Vehicle"
+    ],
+    "Customer Service": [
+        "Call Center/IT-Enabled Services/BPO",
+        "Hotel/Hospitality",
+        "Call Center / IT-Enabled Services/BPO",
+        "Hotel / Hospitality"
+    ],
+    "IT-Network/Sys/DB Admin": [
+        "Telecommunication"
+    ],
+    "Corporate Finance/Investment": [
+        "Banking/Financial Services",
+        "Banking / Financial Services"
+    ],
+    "Sales": [
+        "Retail/Merchandise",
+        "General & Wholesale Trading",
+        "Retail / Merchandise"
+    ],
+    "Training & Dev.": [
+        "Education"
+    ],
+    "Human Resources": [
+        "Human Resources Management/Consulting",
+        "Human Resources Management / Consulting"
+    ],
+    "Other Engineering": [
+        "Heavy Industrial/Machinery/Equipment",
+        "Semiconductor/Wafer Fabrication",
+        "Heavy Industrial / Machinery / Equipment",
+        "Semiconductor / Wafer Fabrication"
+    ],
+    "Banking/Financial": [
+        "Banking/Financial Services",
+        "Insurance",
+        "Banking / Financial Services"
+    ],
+    "Manufacturing": [
+        "Manufacturing/Production",
+        "Heavy Industrial/Machinery/Equipment",
+        "Automobile/Automotive Ancillary/Vehicle",
+        "Manufacturing / Production",
+        "Heavy Industrial / Machinery / Equipment",
+        "Automobile / Automotive Ancillary / Vehicle"
+    ],
+    "Communication and Public Relations": [
+        "Advertising/Marketing/Promotion/PR",
+        "Consulting (Business & Management)",
+        "Advertising / Marketing / Promotion / PR"
+    ],
+    "Education": [
+        "Education"
+
+    ],
+    "Entertainment": [
+        "Entertainment/Media",
+        "Entertainment / Media"
+    ],
+    "IT-Hardware": [
+        "Computer/Information Technology (Hardware)",
+        "Computer / Information Technology (Hardware)"
+    ],
+    "Food/Beverage/Restaurant": [
+        "Food & Beverage/Catering/Restaurant",
+        "Food & Beverage / Catering / Restaurant"
+    ],
+    "Top Management": [
+        "Consulting (Business & Management)"
+    ],
+    "Secretarial/Executive Personal Assistant": [
+        "Others"
+    ],
+    "Others": [
+        "Non-Profit Organisation/Social Services/NGO",
+        "Non-Profit Organisation / Social Services / NGO"
+    ],
+    "Hotel/Restaurant": [
+        "Food & Beverage/Catering/Restaurant",
+        "Food & Beverage / Catering / Restaurant"
+    ],
+    "Services": [
+        "Law/Legal Services",
+        "Government/Defence",
+        "Intellectual Property",
+        "Compliance and Regulatory roles"
+    ]
+
+}

@@ -1,0 +1,1 @@
+from job_recommendation.page import *

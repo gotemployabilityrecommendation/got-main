@@ -1,0 +1,67 @@
+html, p{
+    font-family: 'Trebuchet MS', Helvetica, sans-serif !important;
+    /* Arial, Helvetica, sans-serif;  */
+    /* 'Times New Roman', Times, serif; */
+}
+
+.navbar-brand{
+    font-size: 24px !important;
+    font-weight: bold !important;
+}
+
+.nav-item{
+    display: inline;
+}
+
+.nav-link,
+.nav-link:after,
+.nav-link:before {
+  transition: all .5s;
+  color: black !important;
+  cursor: pointer !important;
+  font-size: 20px !important;
+}
+
+.nav-link {
+    position:relative;
+    z-index: 1;
+}
+
+.nav-link:hover {
+    color: white !important;
+}
+
+.nav-link:after {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 1px;
+    content: ' ';
+    color: transparent;
+    background: #386799;
+    visibility: none;
+    opacity: 0;
+    z-index: -1;
+    border-radius: 50px 20px;
+}
+
+.nav-link:hover:after {
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+}
+  
+.element-container:has(iframe[height="0"]) {
+    display: none;
+}
+
+.nav-link.active-page{
+    background-color: #386799;
+    color: white !important;
+    border-radius: 40px 25px;
+}

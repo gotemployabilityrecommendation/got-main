@@ -1,0 +1,1 @@
+from job_recommendation.jss_prediction_components.prediction import Prediction

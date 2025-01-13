@@ -1,0 +1,1 @@
+from job_recommendation.recommendation_components.recommend import Recommendation

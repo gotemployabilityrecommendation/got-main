@@ -1,0 +1,256 @@
+{
+    "employed t1": {
+        "before fs": [
+            "permanent_address_state",
+            "permanent_address_district",
+            "race",
+            "gender",
+            "disability",
+            "status",
+            "date_of_birth",
+            "campus",
+            "program_description",
+            "faculty_domain",
+            "faculty_description",
+            "entry_eligibility",
+            "bm_score",
+            "bi_score",
+            "muet_score",
+            "matematik",
+            "sejarah",
+            "matematik_tambahan",
+            "fizik",
+            "kimia",
+            "biologi",
+            "pendidikan_moral",
+            "t1_gpa"
+        ]
+    },
+    "got t1": {
+        "before fs": [
+            "permanent_address_state",
+            "permanent_address_district",
+            "race",
+            "gender",
+            "disability",
+            "status",
+            "date_of_birth",
+            "campus",
+            "program_description",
+            "faculty_domain",
+            "faculty_description",
+            "entry_eligibility",
+            "bm_score",
+            "bi_score",
+            "muet_score",
+            "matematik",
+            "sejarah",
+            "matematik_tambahan",
+            "fizik",
+            "kimia",
+            "biologi",
+            "pendidikan_moral",
+            "t1_gpa"
+        ]
+    },
+    "employed t2": {
+        "before fs": [
+            "permanent_address_state",
+            "permanent_address_district",
+            "race",
+            "gender",
+            "disability",
+            "status",
+            "campus",
+            "program_description",
+            "faculty_domain",
+            "faculty_description",
+            "entry_eligibility",
+            "muet_score",
+            "t1_gpa",
+            "t2_gpa"
+        ]
+    },
+    "got t2": {
+        "before fs": [
+            "permanent_address_state",
+            "permanent_address_district",
+            "race",
+            "gender",
+            "disability",
+            "status",
+            "campus",
+            "program_description",
+            "faculty_domain",
+            "faculty_description",
+            "entry_eligibility",
+            "muet_score",
+            "t1_gpa",
+            "t2_gpa"
+        ]
+    },
+    "employed t3": {
+        "before fs": [
+            "permanent_address_state",
+            "permanent_address_district",
+            "race",
+            "gender",
+            "disability",
+            "status",
+            "campus",
+            "program_description",
+            "faculty_domain",
+            "faculty_description",
+            "entry_eligibility",
+            "muet_score",
+            "t1_gpa",
+            "t2_gpa",
+            "t3_gpa"
+        ]
+    },
+    "got t3": {
+        "before fs": [
+            "permanent_address_state",
+            "permanent_address_district",
+            "race",
+            "gender",
+            "disability",
+            "status",
+            "campus",
+            "program_description",
+            "faculty_domain",
+            "faculty_description",
+            "entry_eligibility",
+            "muet_score",
+            "t1_gpa",
+            "t2_gpa",
+            "t3_gpa"
+        ]
+    },
+    "employed t4": {
+        "before fs": [
+            "permanent_address_state",
+            "permanent_address_district",
+            "race",
+            "gender",
+            "disability",
+            "status",
+            "campus",
+            "program_description",
+            "faculty_domain",
+            "faculty_description",
+            "entry_eligibility",
+            "muet_score",
+            "t1_gpa",
+            "t2_gpa",
+            "t3_gpa",
+            "t4_gpa"
+        ]
+    },
+    "got t4": {
+        "before fs": [
+            "permanent_address_state",
+            "permanent_address_district",
+            "race",
+            "gender",
+            "disability",
+            "status",
+            "campus",
+            "program_description",
+            "faculty_domain",
+            "faculty_description",
+            "entry_eligibility",
+            "muet_score",
+            "t1_gpa",
+            "t2_gpa",
+            "t3_gpa",
+            "t4_gpa"
+        ]
+    },
+    "employed t5": {
+        "before fs": [
+            "permanent_address_state",
+            "permanent_address_district",
+            "race",
+            "gender",
+            "disability",
+            "status",
+            "campus",
+            "program_description",
+            "faculty_domain",
+            "faculty_description",
+            "entry_eligibility",
+            "muet_score",
+            "t1_gpa",
+            "t2_gpa",
+            "t3_gpa",
+            "t4_gpa",
+            "t5_gpa"
+        ]
+    },
+    "got t5": {
+        "before fs": [
+            "permanent_address_state",
+            "permanent_address_district",
+            "race",
+            "gender",
+            "disability",
+            "status",
+            "campus",
+            "program_description",
+            "faculty_domain",
+            "faculty_description",
+            "entry_eligibility",
+            "muet_score",
+            "t1_gpa",
+            "t2_gpa",
+            "t3_gpa",
+            "t4_gpa",
+            "t5_gpa"
+        ]
+    },
+    "employed t6": {
+        "before fs": [
+            "permanent_address_state",
+            "permanent_address_district",
+            "race",
+            "gender",
+            "disability",
+            "status",
+            "campus",
+            "program_description",
+            "faculty_domain",
+            "faculty_description",
+            "entry_eligibility",
+            "muet_score",
+            "t1_gpa",
+            "t2_gpa",
+            "t3_gpa",
+            "t4_gpa",
+            "t5_gpa",
+            "t6_gpa"
+        ]
+    },
+    "got t6": {
+        "before fs": [
+            "permanent_address_state",
+            "permanent_address_district",
+            "race",
+            "gender",
+            "disability",
+            "status",
+            "campus",
+            "program_description",
+            "faculty_domain",
+            "faculty_description",
+            "entry_eligibility",
+            "muet_score",
+            "t1_gpa",
+            "t2_gpa",
+            "t3_gpa",
+            "t4_gpa",
+            "t5_gpa",
+            "t6_gpa"
+        ]
+    }
+}

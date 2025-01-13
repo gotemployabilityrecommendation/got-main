@@ -1,0 +1,1 @@
+from job_recommendation.map_components.custom_map import CustomMap

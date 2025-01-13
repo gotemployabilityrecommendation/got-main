@@ -1,0 +1,46 @@
+[data-testid="stAppViewContainer"]>.main {
+    background-color: #fff;
+}
+
+.flex-container {
+    display: flex;
+    align-items: flex-start;
+    white-space: normal;
+}
+
+.flex-box {
+    margin: 5px;
+    padding: 10px;
+    /* background-color: lightblue;
+    border: 1px solid blue; */
+    width: fit-content;
+    height: 166px;
+    align-content: center;
+}
+
+@media (max-width: 767px) {
+    .flex-container {
+        flex-direction: column;
+        white-space: normal;
+        /* Stacks the divs vertically */
+    }
+}
+@media only screen and (min-width: 767px) {
+    #pred::after {
+        content: "";
+        background: #061B66;
+        position: absolute;
+        height: 166px;
+        width: 8px;
+        margin-left: 5px;
+        margin-top: -11px;
+    }
+}
+
+.main div[data-testid="element-container"]:nth-last-child(-n+8) {
+    transform: translateY(-150px)
+}
+
+.main div[data-testid="element-container"]:nth-last-child(-n+7) {
+    transform: translateY(-180px)
+}

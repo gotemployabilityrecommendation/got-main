@@ -1,0 +1,1 @@
+from jss_prediction_components.prediction import Prediction
