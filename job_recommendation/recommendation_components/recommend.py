@@ -75,17 +75,18 @@ class Recommendation():
         states = self._get_states()
         # col1, col_m, col2 = st.columns([.4, .2, .4])
         # col1, col2 = st.columns([.5, .3])
-        left, right = st.columns([.5, .5])
-        curr_lat, curr_lon = self._get_current_location()
-        left.markdown(
-            """<div style="color:black; font-size:24px; font-weight:900">Companies in</div>""", unsafe_allow_html=True)
-
-        state = right.selectbox(
-            label="State", options=states, label_visibility='collapsed')
-
+        
         col1, col2 = st.columns([.5, .5])
 
         with col1:
+            left, right = st.columns([.5, .5])
+            curr_lat, curr_lon = self._get_current_location()
+            left.markdown(
+                """<div style="color:black; font-size:24px; font-weight:900">Companies in</div>""", unsafe_allow_html=True)
+
+            state = right.selectbox(
+                label="State", options=states, label_visibility='collapsed')
+
             map1 = map_obj.get_state_and_map_data_with_jss(
                 state, filter_jss=jss, zoom=10)
             st.plotly_chart(map1, use_container_width=True)
