@@ -36,7 +36,8 @@ def show(data):
 
     getPoi = PoiBasedMap()
 
-    getPoi.get_state_and_map_data(state, filter_faculty=domain)
+    with left:
+        getPoi.get_state_and_map_data(state, filter_faculty=domain)
 
     comb = pd.read_csv("pre_uni/combination.csv")
     data['Campus'] = ""
@@ -106,9 +107,9 @@ def show(data):
     #     cat_val.append(random.randint(0, 15))
     success_df = similarity(domain_selector, cat_val, temp_state)
 
-    
-    radar(faculty_domain_selector, got_res, emp_res, st)
-    bar(success_df, temp_state.upper(), st)
+    with right:
+        radar(faculty_domain_selector, got_res, emp_res, st)
+        bar(success_df, temp_state.upper(), st)
 
     # markdown("""<style>
     #             div.block-container{padding-top:1rem;z-index: 1}
