@@ -127,6 +127,6 @@ img_url = CustomNav()._load_img("tm_logo.png")
 st.markdown(f"""<div class = "row p-0" style = "margin-top: -90px">
     <div class = "col-md-8"></div>
     <div class = "col-md-4">
-       <img src = "data:image/gif;base64,{img_url}" width = "200px" height = "200px" style="margin-left: 100px;">
+       <img src = "data:image/gif;base64,{img_url}" width = "200px" height = "200px" style="margin-left: 150px;">
     </div>
 </div>""", unsafe_allow_html = True)
