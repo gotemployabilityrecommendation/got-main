@@ -85,17 +85,19 @@ class Recommendation():
 
         col1, col2 = st.columns([.5, .5])
 
-        map1 = map_obj.get_state_and_map_data_with_jss(
-            state, filter_jss=jss, zoom=10)
-        st.plotly_chart(map1, use_container_width=True)
+        with col1:
+            map1 = map_obj.get_state_and_map_data_with_jss(
+                state, filter_jss=jss, zoom=10)
+            st.plotly_chart(map1, use_container_width=True)
+        
+        with col2:
+            st.markdown(
+                f"""<div style="color:black; font-size:24px; font-weight:900">Companies Near MMU, Cyberjaya </div>""", unsafe_allow_html=True)
+            # col1, col_m, col2 = st.columns([.4, .2, .4])
 
-        st.markdown(
-            f"""<div style="color:black; font-size:24px; font-weight:900">Companies Near MMU, Cyberjaya </div>""", unsafe_allow_html=True)
-        # col1, col_m, col2 = st.columns([.4, .2, .4])
-
-        map2 = map_obj.get_permanent_address_map_data_jss(
-            lat=curr_lat, lon=curr_lon, filter_jss=jss, zoom=11,opacity=0.8)
-        st.plotly_chart(map2, use_container_width=True)
+            map2 = map_obj.get_permanent_address_map_data_jss(
+                lat=curr_lat, lon=curr_lon, filter_jss=jss, zoom=11,opacity=0.8)
+            st.plotly_chart(map2, use_container_width=True)
 
     def recommend(self,data):
         pred = Prediction()
