@@ -24,19 +24,18 @@ def show(data):
 
     left, right = st.columns((3, 2))
 
-
-    l1, l2 = st.columns((1,1))
-    state = dropdown("State", state_selector, l1)
-    domain = dropdown("Faculty Domain", faculty_domain_selector, l2)
-
-    if domain == "APPLIED COMMUNICATION":
-        domain = domain.replace("APPLIED COMMUNICATION", "FAC")
-    elif domain == "CINEMATIC ART":
-        domain = domain.replace("CINEMATIC ART", "FCA")
-
-    getPoi = PoiBasedMap()
-
     with left:
+        l1, l2 = st.columns((1,1))
+        state = dropdown("State", state_selector, l1)
+        domain = dropdown("Faculty Domain", faculty_domain_selector, l2)
+
+        if domain == "APPLIED COMMUNICATION":
+            domain = domain.replace("APPLIED COMMUNICATION", "FAC")
+        elif domain == "CINEMATIC ART":
+            domain = domain.replace("CINEMATIC ART", "FCA")
+
+        getPoi = PoiBasedMap()
+
         getPoi.get_state_and_map_data(state, filter_faculty=domain)
 
     comb = pd.read_csv("pre_uni/combination.csv")
