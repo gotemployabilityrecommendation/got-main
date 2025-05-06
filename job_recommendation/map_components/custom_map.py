@@ -164,7 +164,7 @@ class CustomMap:
                 hovertemplate='<b>%{hovertext}</b><br>Ratings: %{customdata[0]}<br>Industry type: %{customdata[1]}')
         return fig
 
-    def get_state_and_map_data_with_jss(self, user_state, filter_jss="", height=400, width=400, zoom=None, opacity=None):
+    def get_state_and_map_data_with_jss(self, user_state, filter_jss="", height=300, width=200, zoom=None, opacity=None):
         '''
         It will show the company information on the map
         Parameters
@@ -195,7 +195,7 @@ class CustomMap:
         else:
             st.write('Please enter the correct state')
 
-    def get_permanent_address_map_data_jss(self, lat, lon, radius=25, filter_jss="", height=400, width=400, zoom=None, opacity=None):
+    def get_permanent_address_map_data_jss(self, lat, lon, radius=25, filter_jss="", height=300, width=200, zoom=None, opacity=None):
         filter_tag = self._jss_industry_map(filter_jss)
         st_map = self._get_com_nearby(
             lat=lat, lon=lon, radius=radius, filter_tag=filter_tag)
