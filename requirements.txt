@@ -10,3 +10,4 @@ streamlit_javascript==0.1.5
 streamlit==1.33.0
 catboost==1.2.5
 xgboost==2.0.3
+Cython==3.0.10
